@@ -27,6 +27,14 @@
             android:name=".StartActivity"
             android:label="@string/title_activity_start" >
         </activity>
+        <activity
+            android:name=".V303StartActivity"
+            android:label="@string/title_activity_v303_start" >
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/title_activity_v303_main_menu" >
+        </activity>
     </application>
 
 </manifest>

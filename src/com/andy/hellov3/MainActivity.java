@@ -18,15 +18,21 @@ public class MainActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_main);
 		Button v302 = (Button)findViewById(R.id.v302);
 		v302.setOnClickListener(new OnClickListener() {
-			
-			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				Intent intent = new Intent();
-		        intent.putExtra("name","LeiPei");    
+		        intent.putExtra("name","Sally");    
 		        intent.setClass(MainActivity.this, StartActivity.class);
 		        MainActivity.this.startActivity(intent);
-//		        MainActivity.this.finish();
+			}
+		});
+		
+		Button v303 = (Button)findViewById(R.id.v303);
+		v303.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent();
+		        intent.putExtra("name","Andy");    
+		        intent.setClass(MainActivity.this, V303StartActivity.class);
+		        MainActivity.this.startActivity(intent);
 			}
 		});
 	}
