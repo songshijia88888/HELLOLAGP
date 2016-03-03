@@ -1,5 +1,6 @@
 package com.andy.hellov3;
 
+import com.andy.v304.*;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -32,6 +33,16 @@ public class MainActivity extends ActionBarActivity {
 				Intent intent = new Intent();
 		        intent.putExtra("name","Andy");    
 		        intent.setClass(MainActivity.this, V303StartActivity.class);
+		        MainActivity.this.startActivity(intent);
+			}
+		});
+		
+		Button v304 = (Button)findViewById(R.id.v304);
+		v304.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent();
+		        intent.putExtra("name","Andy");    
+		        intent.setClass(MainActivity.this, com.andy.v304.StartActivity.class);
 		        MainActivity.this.startActivity(intent);
 			}
 		});

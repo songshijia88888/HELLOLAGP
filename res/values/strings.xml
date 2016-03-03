@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">HelloV3</string>
     <string name="hello_world">Hello world, This is the demo codes of book LAGP.</string>
     <string name="action_settings">Settings</string>
@@ -9,4 +8,8 @@
     <string name="title_activity_v303_start">V303StartActivity</string>
 	<string name="v303">V303</string>
 	<string name="title_activity_v303_main_menu">V303Menu</string>
+	<string name="v304">V304</string>
+	<string name="title_activity_v304_main_menu">v304Menu</string>
+	<string name="title_activity_v304_level1">V304Level1Activity</string>
+	<string name="title_activity_v304_start">V034StartActivity</string>
 </resources>

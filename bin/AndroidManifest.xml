@@ -6,9 +6,9 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="8"
         android:targetSdkVersion="23" />
-
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -34,6 +34,18 @@
         <activity
             android:name=".MainMenuActivity"
             android:label="@string/title_activity_v303_main_menu" >
+        </activity>
+        <activity
+            android:name="com.andy.v304.MainMenuActivity"
+            android:label="@string/title_activity_v304_main_menu" >
+        </activity>
+        <activity
+            android:name="com.andy.v304.Level1Activity"
+            android:label="@string/title_activity_v304_level1" >
+        </activity>
+        <activity
+            android:name="com.andy.v304.StartActivity"
+            android:label="@string/title_activity_v304_start" >
         </activity>
     </application>
 

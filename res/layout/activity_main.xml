@@ -19,4 +19,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/v303"/>
+        
+        <Button 
+            android:id="@+id/v304"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/v304"/>
 </LinearLayout>
